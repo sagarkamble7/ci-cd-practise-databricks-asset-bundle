@@ -28,7 +28,7 @@ resources:
           depends_on:
             - task_key: notebook_task
           notebook_task:
-            notebook_path: ../src/transaction_summary
+            notebook_path: ../src/transaction_summary.ipynb
 
 
       environments:
